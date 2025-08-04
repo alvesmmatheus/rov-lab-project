@@ -69,7 +69,7 @@ As conexões de cada sensor são listadas abaixo de suas respectivas imagens.
 
 ## 🔸 Módulo MAX485 (RS-485)
 
-![MAX485](imagens/MAX485.png)
+![MAX485](MAX485.png)
 
 | Pino do Módulo | Vai no ESP32 |
 |----------------|--------------|
