@@ -8,7 +8,7 @@ As conexões de cada sensor são listadas abaixo de suas respectivas imagens.
 
 ## 📦 ESP32 – Pinout
 
-![ESP32 Pinout](imagens/esp32_pinout.png)
+![ESP32 Pinout](esp32_pinout.png)
 
 ---
 
@@ -65,10 +65,18 @@ As conexões de cada sensor são listadas abaixo de suas respectivas imagens.
 
 ---
 
-## 🔸 RS-485 (Rede serial) (MAX485.png)
+---
 
-| Direção        | Vai no ESP32 |
+## 🔸 Módulo MAX485 (RS-485)
+
+![MAX485](imagens/MAX485.png)
+
+| Pino do Módulo | Vai no ESP32 |
 |----------------|--------------|
-| TX             | GPIO 1       |
-| RX             | GPIO 3       |
-| GND            | GND          |
+| RO (Receive Out) | GPIO 3 *(RX)*     |
+| DI (Driver In)   | GPIO 1 *(TX)*     |
+| DE (Enable)      | GND *(fixo ou GPIO controle)* |
+| RE (Receive Enable) | GND *(fixo ou GPIO controle)* |
+| VCC              | 3.3V ou 5V        |
+| GND              | GND               |
+| A/B              | Barramento RS-485 |
