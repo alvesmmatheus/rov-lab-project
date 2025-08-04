@@ -10,7 +10,7 @@ Este repositório contém o desenvolvimento de um sistema simulado de ROV (Remot
 - Sensores: IMU, temperatura (NTC), tensão, corrente, RTC (DS3231)
 
 ## 🎯 Objetivo
-Desenvolver um sistema de navegação e telemetria embarcada (TOGSNAV), simulando as funções de um ROV real, com interface gráfica em tempo real e arquitetura modular.
+Desenvolver um sistema de navegação e telemetria embarcada, simulando as funções de um ROV real, com interface gráfica em tempo real e arquitetura modular.
 
 ## 📁 Estrutura
 - `codigo/`: firmwares e scripts
