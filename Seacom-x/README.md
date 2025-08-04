@@ -14,7 +14,7 @@ As conexões de cada sensor são listadas abaixo de suas respectivas imagens.
 
 ## 🔹 MPU-6050 (Acelerômetro + Giroscópio)
 
-![MPU-6050](imagens/mpu6050.png)
+![MPU-6050](mpu6050.png)
 
 | Pino do Módulo | Vai no ESP32 |
 |----------------|--------------|
@@ -27,7 +27,7 @@ As conexões de cada sensor são listadas abaixo de suas respectivas imagens.
 
 ## 🔹 HMC5883L (Bússola)
 
-![HMC5883L](imagens/hmc5883l.png)
+![HMC5883L](hmc5883l.png)
 
 | Pino do Módulo | Vai no ESP32 |
 |----------------|--------------|
@@ -40,7 +40,7 @@ As conexões de cada sensor são listadas abaixo de suas respectivas imagens.
 
 ## 🔹 GPS GY-NEO6MV2
 
-![GPS NEO-6M](imagens/neo6m_gps.png)
+![GPS NEO-6M](neo6m_gps.png)
 
 | Pino do Módulo | Vai no ESP32 |
 |----------------|--------------|
@@ -53,7 +53,7 @@ As conexões de cada sensor são listadas abaixo de suas respectivas imagens.
 
 ## 🔹 MAX6675 (Termopar tipo K)
 
-![MAX6675](imagens/max6675.png)
+![MAX6675](max6675.png)
 
 | Pino do Módulo | Vai no ESP32 |
 |----------------|--------------|
@@ -65,7 +65,7 @@ As conexões de cada sensor são listadas abaixo de suas respectivas imagens.
 
 ---
 
-## 🔸 RS-485 (Rede serial)
+## 🔸 RS-485 (Rede serial) (MAX485.png)
 
 | Direção        | Vai no ESP32 |
 |----------------|--------------|
